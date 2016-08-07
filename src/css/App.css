@@ -1,0 +1,46 @@
+.logo {
+  height: 90px;
+  margin-right: 20px;
+}
+h2,
+.logo {
+  vertical-align: middle;
+  display: inline-block;
+}
+.header {
+  background-color: #dedede;
+  height: auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.home{
+  padding: 30px 0;
+}
+
+.pull-left{
+  float: left;
+}
+.pull-right{
+  float: right
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.error{
+    background-color: rgba(206, 29, 29, 0.2);
+    border: 1px solid #731d1d;
+    color: #731d1d;
+    border-radius: 3px;
+    margin: 10px 0;
+    padding: 15px;
+}
