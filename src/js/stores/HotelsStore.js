@@ -33,7 +33,7 @@ let Store = Object.assign({}, EventEmitter.prototype, {
   getReviews: function(index, callback){
   	if( _hotels[index].reviews === undefined ){
 	  	qwest
-	  		.get('http://fake-hotel-api.herokuapp.com/api/reviews?hotel_id='+_hotels[index].id)
+	  		.get('//fake-hotel-api.herokuapp.com/api/reviews?hotel_id='+_hotels[index].id)
 	  		.then( response => {
 	  			if(response.responseText.length > 0){
 	  				_hotels[index].reviews = JSON.parse(response.responseText)
