@@ -2,6 +2,7 @@
   "name": "hotel-assessment",
   "version": "0.0.1",
   "private": true,
+  "homepage": "http://pankajpatel.github.io/assessment/build",
   "devDependencies": {
     "autoprefixer": "6.3.7",
     "babel-core": "6.11.4",
