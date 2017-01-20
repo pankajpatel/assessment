@@ -55,7 +55,7 @@ let Store = Object.assign({}, EventEmitter.prototype, {
   	_error = null;
   	_hotels = [];
   	qwest
-  		.get('http://fake-hotel-api.herokuapp.com/api/hotels?count=10')
+  		.get('//fake-hotel-api.herokuapp.com/api/hotels?count=10')
   		.then( response => {
   			if(response.responseText.length > 0){
   				_hotels = JSON.parse(response.responseText)
